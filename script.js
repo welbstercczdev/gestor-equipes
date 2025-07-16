@@ -1,5 +1,5 @@
 // ATENÇÃO: Cole a URL do App da Web que você copiou na Etapa 1.3
-//?
+//??
 const API_URL = "https://script.google.com/macros/s/AKfycbzymKAe1ztOMqAMoH35MGcIUA85IKav5oqXt9lyiz9OXbyVoEZylA6gr8ADMHOPUtdfBQ/exec";
 
 const loadingIndicator = document.getElementById('loading');

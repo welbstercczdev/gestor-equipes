@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Equipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerenciador de Formação de Equipes</h1>
+
+    <div class="container">
+        <div id="unallocated" class="person-list-container">
+            <h2>Pessoas Não Alocadas</h2>
+            <div class="person-list" data-team-id="">
+                <!-- Pessoas serão inseridas aqui pelo JavaScript -->
+                <div class="placeholder">Arraste pessoas para cá</div>
+            </div>
+        </div>
+
+        <div id="calendar" class="calendar-container">
+            <h2>Equipes e Calendário</h2>
+            <div id="teams-grid" class="teams-grid">
+                <!-- Equipes serão inseridas aqui pelo JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div id="loading">Carregando dados...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
